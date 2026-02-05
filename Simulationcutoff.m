@@ -220,7 +220,7 @@ for i_pr = 1:length(poisson_ratios)
                  'all_rep_inf_particle_counts'); % 100회 원본 데이터 (9x100 배열)
             
             % [5] .xlsx 파일 저장
-            writecell(output_data_for_ai, excel_filename, 'Sheet', 'Summary');
+            writecell(output_summary, excel_filename, 'Sheet', 'Summary');
             
             fprintf('--- 조합 %d 완료. 100회 평균/표준편차 집계 및 파일 저장 완료. ---\n', combination_counter);
             
