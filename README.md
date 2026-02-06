@@ -33,8 +33,3 @@ This script builds and validates the machine learning surrogate model.
 ### Prerequisites
 - **MATLAB** (R2021a or later)
 - **Statistics and Machine Learning Toolbox** (Required for `fitrnet`)
-
-### Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/yeonbiri/HMC-MLP-tunneling-percolation-CPC.git](https://github.com/yeonbiri/HMC-MLP-tunneling-percolation-CPC.git)
