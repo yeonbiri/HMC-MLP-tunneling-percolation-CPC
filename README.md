@@ -7,7 +7,6 @@ The study integrates **3D Monte Carlo (MC) simulations** with a **Multilayer Per
 
 
 
-[Image of a neural network architecture diagram]
 
 
 ## 2. Code Descriptions
