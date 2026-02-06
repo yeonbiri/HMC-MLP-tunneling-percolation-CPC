@@ -10,7 +10,7 @@ total_volumes = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650,
 particle_sizes = [0.1, 0.2, 0.5, 1, 2, 5];
 
 
-save_directory = "C:\Users\Desktop\연주\code\1-1-1. data100_cutoff0.05";
+save_directory = fullfile(pwd, 'data', '1-1-1. data100_cutoff0.05');
 
 if ~isfolder(save_directory)
     mkdir(save_directory);
