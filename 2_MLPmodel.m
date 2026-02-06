@@ -2,10 +2,10 @@ clc;
 clear;
 close all;
 
-fprintf('🚀 [FINAL INTEGRATED] MLP 모델 훈련 및 심층 분석 시작...\n\n');
+fprintf('[FINAL INTEGRATED] MLP 모델 훈련 및 심층 분석 시작...\n\n');
 
 %% Data Loading & Preprocessing
-base_data_directory = "C:\Users\Desktop\연주\code";
+base_data_directory = pwd;
 
 data_paths = {
     fullfile(base_data_directory, "1-1-1. data100_cutoff0.05"), ...
@@ -70,9 +70,8 @@ end
 
 fprintf('총 %d개의 데이터 포인트 준비 완료.\n\n', height(ml_table));
 
-%% ========================================================================
 %% PART 2. 데이터 분할 및 모델 훈련 (Splitting & Training)
-%% ========================================================================
+
 fprintf('데이터 분할 및 모델 훈련...\n');
 
 X = ml_table(:, {'VolFrac','ParticleSize','PoissonRatio','Strain','TunnelingCutoff'});
